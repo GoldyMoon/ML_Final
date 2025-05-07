@@ -1,0 +1,103 @@
+
+\documentclass{article}
+\usepackage[final]{nips_2017}
+\usepackage[utf8]{inputenc} % allow utf-8 input
+\usepackage[T1]{fontenc}    % use 8-bit T1 fonts
+\usepackage{hyperref}       % hyperlinks
+\usepackage{url}            % simple URL typesetting
+\usepackage{booktabs}       % professional-quality tables
+\usepackage{amsfonts}       % blackboard math symbols
+\usepackage{nicefrac}       % compact symbols for 1/2, etc.
+\usepackage{microtype}      % microtypography
+\usepackage{graphicx}
+\usepackage[many]{tcolorbox}
+\usepackage{trimclip}
+\usepackage{listings}
+\usepackage{multicol}
+\usepackage{environ}% http://ctan.org/pkg/environ
+\usepackage{wasysym}
+\usepackage{array}
+\newcommand{\Checked}{{\LARGE \XBox}}%
+\newcommand{\Unchecked}{{\LARGE \Square}}%
+
+\pagenumbering{gobble}
+
+\title{CS 487/687 Project Proposal}
+% TODO replace with your project title
+
+\author{
+  Student 1, Student 2, Student 3\\
+  JHED 1, JHED 2, JHED 3
+  % TODO replace with your names and JHEDs
+}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+The abstract should consist of a few sentences describing the motivation for your project and your proposed methods.
+
+\end{abstract}
+
+\section{Introduction}	
+Explain the problem and why it is important. Discuss your motivation for pursuing this
+problem. 
+
+Then give some background on published work in this related area. For application project, state previous work that have tried to tackle the problem and why they are not sufficient. For method project, clearly state how previous work are relevant to your proposed idea, like why they may not solve your problem and what more is needed.
+
+Finally, briefly talk about your plan to tackle this problem.
+
+1-2 paragraphs.
+
+\section{Dataset and Features}
+Describe your dataset(s): how many training/validation/test examples do you have? Are there public available data, etc? Are there pre-processing needed? why did you choose this data?
+You may include one or two examples of your data in the report
+(e.g. include an image, a slice of a time-series, etc.). 1-2 paragraphs.
+
+\section{Methods}
+Describe the methods you plan to use. For application project, if you are using existing methods, talk about your loss function? your optimization approach? your algorithm? Include enough information to demonstrate your understanding of the methods. 
+
+If it is a method project, describe your new ideas clearly. For exapmle, do you plan to improve something covered in class? explain why they are not good enough. If not covered in class, provide a citation. 1-2 paragraphs.
+
+\section{Deliverables}
+These are ordered by how important they are to the project and how thoroughly you have thought them through. You should be confident that your ``must accomplish'' deliverables are achievable; one or two should be completed by the time you turn in your progress presentation.
+
+\subsection{Must accomplish}
+
+\begin{enumerate}
+    \item A list of ~3 goals you must accomplish for a successful project
+    \item etc.
+\end{enumerate}
+
+\subsection{Expect to accomplish}
+
+\begin{enumerate}
+    \item A list of ~3 goals you expect to accomplish as part of the project
+    \item etc.
+\end{enumerate}
+
+\subsection{Would like to accomplish}
+
+\begin{enumerate}
+    \item A list of ~3 goals you hope to accomplish if everything goes well
+    \item etc.
+\end{enumerate}
+
+\section*{References}
+This section should include citations for: (1) Any papers on related work mentioned in the introduction.
+(2) Papers describing methods that you used which were not covered in class.
+(3) Code or libraries you downloaded and used.
+
+\medskip
+\small
+% TODO replace these with your citations. These are just examples.
+[1] Alexander, J.A.\ \& Mozer, M.C.\ (1995) Template-based algorithms
+for connectionist rule extraction. In G.\ Tesauro, D.S.\ Touretzky and
+T.K.\ Leen (eds.), {\it Advances in Neural Information Processing
+  Systems 7}, pp.\ 609--616. Cambridge, MA: MIT Press.
+
+[2] Bower, J.M.\ \& Beeman, D.\ (1995) {\it The Book of GENESIS:
+  Exploring Realistic Neural Models with the GEneral NEural SImulation
+  System.}  New York: TELOS/Springer--Verlag.
+
+\end{document}
